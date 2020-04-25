@@ -2,4 +2,7 @@
 
 MyAirport project
 
-Author @Karimbensaid
+Author :
+
+Karim BENSAID- Rokheyatou CAMARA
+@Karimbensaid / @Rokheyatou
