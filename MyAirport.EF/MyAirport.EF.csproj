@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>KB.MyAirport.EF</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200221155330_VoldIDForeignKey.cs" />
+    <Compile Remove="Migrations\20200221155330_VoldIDForeignKey.Designer.cs" />
+    <Compile Remove="Migrations\20200221155542_2-VoldIDForeignKey.cs" />
+    <Compile Remove="Migrations\20200221155542_2-VoldIDForeignKey.Designer.cs" />
+    <Compile Remove="Migrations\20200221155655_3-VoldIDForeignKey.cs" />
+    <Compile Remove="Migrations\20200221155655_3-VoldIDForeignKey.Designer.cs" />
+    <Compile Remove="Migrations\20200221155833_4-VoldIDForeignKey.cs" />
+    <Compile Remove="Migrations\20200221155833_4-VoldIDForeignKey.Designer.cs" />
+    <Compile Remove="Migrations\20200224133448_Modif-Vol-CIE-JEX.cs" />
+    <Compile Remove="Migrations\20200224133448_Modif-Vol-CIE-JEX.Designer.cs" />
+    <Compile Remove="Migrations\20200224141532_Modif-Vol-Bagage-NomDeVariable.cs" />
+    <Compile Remove="Migrations\20200224141532_Modif-Vol-Bagage-NomDeVariable.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.2" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+  </ItemGroup>
+
+</Project>

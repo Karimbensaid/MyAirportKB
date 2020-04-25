@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyAirportWebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:MyAirportWebAPI.Controllers.VolsController.GetVols">
+             <summary>
+             Gets all Vol.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /api/Vols
+            
+             </remarks>
+             <response code="200">Returns all the flights</response>
+        </member>
+        <member name="M:MyAirportWebAPI.Controllers.VolsController.GetVol(System.Int32,System.Boolean)">
+             <summary>
+             Gets a specific Vol.
+             L'option "bagages" permet d'affichier la liste de bagage du vol.
+             Si false pas d'affichage.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /api/Vols/1?bagages
+            
+             </remarks>
+             <param name="id"></param>
+             <param name="bagages"></param>
+             <response code="200">Returns the flight with specified id</response>
+             <response code="404">No flight with the specified id</response>
+        </member>
+        <member name="M:MyAirportWebAPI.Controllers.VolsController.PutVol(System.Int32,KB.MyAirport.EF.Vol)">
+             <summary>
+             Updates a Vol.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 PUT /api/Vols/1
+                 {
+                     "Cie" : "LH",
+                     "Des" : "BKK",
+                     "Dhc" : Convert.ToDateTime("14/01/2020 16:45"),
+                     "Imm" : "RZ62",
+                     "Lig" : "1232",
+                     "Pkg" : "R52",
+                     "Pax" : 238
+                 }
+            
+             </remarks>
+             <param name="id"></param>
+             <param name="vol"></param>
+             <response code="200">Returns the flight with specified id</response>
+             <response code="404">No flight with the specified id</response>
+        </member>
+        <member name="M:MyAirportWebAPI.Controllers.VolsController.PostVol(KB.MyAirport.EF.Vol)">
+             <summary>
+             Creates a Vol.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /api/Vols
+                 {
+                     "Cie" : "LH",
+                     "Des" : "BKK",
+                     "Dhc" : Convert.ToDateTime("14/01/2020 16:45"),
+                     "Imm" : "RZ62",
+                     "Lig" : "1232",
+                     "Pkg" : "R52",
+                     "Pax" : 238
+                 }
+            
+             </remarks>
+             <param name="vol"></param>
+             <returns></returns>
+             <response code="201">Flight created</response>
+        </member>
+        <member name="M:MyAirportWebAPI.Controllers.VolsController.DeleteVol(System.Int32)">
+             <summary>
+             Deletes a specific Vol.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 DELETE /api/Vols/1
+            
+             </remarks>
+             <param name="id"></param>
+             <returns></returns>
+        </member>
+        <member name="M:MyAirportWebAPI.Controllers.VolsController.VolExists(System.Int32)">
+            <summary>
+            Vérifie que le vol d'identifiant spécifié existe.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

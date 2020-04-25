@@ -1,0 +1,10 @@
+C:\Users\miste\OneDrive\Documents\MyAirport_KB\MyAirport.EF\obj\Debug\netstandard2.0\MyAirport.EF.csprojAssemblyReference.cache
+C:\Users\miste\OneDrive\Documents\MyAirport_KB\MyAirport.EF\obj\Debug\netstandard2.0\MyAirport.EF.AssemblyInfoInputs.cache
+C:\Users\miste\OneDrive\Documents\MyAirport_KB\MyAirport.EF\obj\Debug\netstandard2.0\MyAirport.EF.AssemblyInfo.cs
+C:\Users\miste\OneDrive\Documents\MyAirport_KB\MyAirport.EF\obj\Debug\netstandard2.0\MyAirport.EF.dll
+C:\Users\miste\OneDrive\Documents\MyAirport_KB\MyAirport.EF\obj\Debug\netstandard2.0\MyAirport.EF.xml
+C:\Users\miste\OneDrive\Documents\MyAirport_KB\MyAirport.EF\obj\Debug\netstandard2.0\MyAirport.EF.pdb
+C:\Users\miste\OneDrive\Documents\MyAirport_KB\MyAirport.EF\bin\Debug\netstandard2.0\MyAirport.EF.deps.json
+C:\Users\miste\OneDrive\Documents\MyAirport_KB\MyAirport.EF\bin\Debug\netstandard2.0\MyAirport.EF.dll
+C:\Users\miste\OneDrive\Documents\MyAirport_KB\MyAirport.EF\bin\Debug\netstandard2.0\MyAirport.EF.pdb
+C:\Users\miste\OneDrive\Documents\MyAirport_KB\MyAirport.EF\bin\Debug\netstandard2.0\MyAirport.EF.xml

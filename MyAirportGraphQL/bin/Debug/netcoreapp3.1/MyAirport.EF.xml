@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyAirport.EF</name>
+    </assembly>
+    <members>
+        <member name="P:KB.MyAirport.EF.Bagage.BagageID">
+            <summary>
+            Clé primaire de ce bagage
+            </summary>
+        </member>
+        <member name="P:KB.MyAirport.EF.Bagage.VolID">
+            <summary>
+            Identifiant du vol correspondant à ce bagage
+            </summary>
+        </member>
+        <member name="P:KB.MyAirport.EF.Bagage.CodeIata">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:KB.MyAirport.EF.Bagage.DateCreation">
+            <summary>
+            Date de création du bagage
+            </summary>
+        </member>
+        <member name="P:KB.MyAirport.EF.Bagage.Classe">
+            <summary>
+            Classe du bagage
+            </summary>
+        </member>
+        <member name="P:KB.MyAirport.EF.Bagage.Prioritaire">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:KB.MyAirport.EF.Bagage.Sta">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:KB.MyAirport.EF.Bagage.Ssur">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:KB.MyAirport.EF.Bagage.Destination">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:KB.MyAirport.EF.Bagage.Escale">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:KB.MyAirport.EF.Vol.VoldID">
+            <summary>
+            Clé primaire du Vol
+            </summary>
+        </member>
+        <member name="P:KB.MyAirport.EF.Vol.Cie">
+            <summary>
+            Compagnie pour ce vol
+            </summary>
+        </member>
+        <member name="P:KB.MyAirport.EF.Vol.Lig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:KB.MyAirport.EF.Vol.Dhc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:KB.MyAirport.EF.Vol.Pkg">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:KB.MyAirport.EF.Vol.Imm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:KB.MyAirport.EF.Vol.Pax">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:KB.MyAirport.EF.Vol.Des">
+            <summary>
+            Destination du vol
+            </summary>
+        </member>
+        <member name="P:KB.MyAirport.EF.Vol.Bagages">
+            <summary>
+            Liste des bagages de ce vol
+            </summary>
+        </member>
+        <member name="M:KB.MyAirport.EF.Vol.#ctor(System.String,System.String,System.DateTime,System.String,System.String,System.Int16,System.String)">
+            <summary>
+            Constructeur de la classe Vol
+            </summary>
+            <param name="cIE"></param>
+            <param name="lIG"></param>
+            <param name="dHC"></param>
+            <param name="pKG"></param>
+            <param name="iMM"></param>
+            <param name="pAX"></param>
+            <param name="dES"></param>
+        </member>
+    </members>
+</doc>
